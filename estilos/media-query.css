@@ -2,7 +2,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 768px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -22,6 +22,8 @@
         float: right;
         width: 70%;
     }
+    
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -35,13 +37,19 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
     
