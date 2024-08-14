@@ -41,7 +41,7 @@ section#login {
 }
 
 section#login > div#imagem {
-    background: #5f2c82 url(../imagens/imagemfundo.jpg);
+    background: #5f2c82 url(./imagens/imagemfundo.jpg);
     background-size: cover;
     height: 200px;
 }
