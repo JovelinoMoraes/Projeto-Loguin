@@ -2,7 +2,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
